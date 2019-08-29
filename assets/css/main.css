@@ -1,0 +1,28 @@
+.container:first-of-type {
+  max-width: 50%;
+  border: 2px solid #000;
+  margin-bottom: 5rem; }
+  .container:first-of-type .row {
+    display: flex;
+    justify-content: space-between; }
+    .container:first-of-type .row div:nth-of-type(2),
+    .container:first-of-type .row div:nth-of-type(3),
+    .container:first-of-type .row div:last-of-type {
+      border: 1px solid black; }
+    .container:first-of-type .row div:nth-of-type(2) {
+      margin-left: 5rem; }
+
+.container:nth-of-type(2) {
+  max-width: 50%;
+  padding: 0rem; }
+  .container:nth-of-type(2) .row {
+    padding: 0rem; }
+    .container:nth-of-type(2) .row div {
+      border: 2px solid #000; }
+    .container:nth-of-type(2) .row .full-width {
+      width: 100%;
+      margin: 0rem; }
+    .container:nth-of-type(2) .row .border-zero {
+      border: 0px; }
+
+/*# sourceMappingURL=main.css.map */
